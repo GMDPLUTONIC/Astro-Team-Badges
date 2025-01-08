@@ -1,26 +1,21 @@
 {
-	"geode": "4.1.2",
-	"gd": {
-		"win": "2.2074",
-		"android": "2.2074"
-	},
-	"id": "gmp.astro_badges",
-	"name": "Astro Badges",
-	"version": "v1.0.0",
-	"developer": "GMP",
-	"description": "",
-    "resources": {
+    "geode": "4.1.2",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074"
+    },
+    "id": "gmp.astro_badges",
+    "name": "Astro Badges",
+    "version": "v1.0.0",
+    "developer": "GMP",
+    "description": "",
+	"resources": {
         "sprites": [
             "resources/Astro_Badge.png"
-        ]
-	}
-	{
-		"dependencies": [
-			{
-				"id": "jouca.badgesapi",
-				"version": ">=v1.2.0",
-				"importance": "required"
-			}
-		]
-	}
+        ]},
+    "dependencies": [{
+        "id": "jouca.badgesapi",
+        "version": ">=v1.2.0",
+        "importance": "required"
+    }]
 }
