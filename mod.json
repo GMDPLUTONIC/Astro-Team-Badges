@@ -9,6 +9,11 @@
 	"version": "v1.0.0",
 	"developer": "GMP",
 	"description": "",
+    "resources": {
+        "sprites": [
+            "resources/Astro_Badge.png"
+        ]
+	}
 	{
 		"dependencies": [
 			{
